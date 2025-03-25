@@ -33,16 +33,55 @@ nav ul li a {
     margin-top: 50px;
 }
 
-.btn {
+.btn, .project-btn {
     display: inline-block;
     padding: 10px 20px;
     background: #ff4500;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px;
+    margin: 10px;
+}
+
+.projects {
+    margin-top: 40px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .content {
     margin: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #222;
+    color: white;
+}
+
+button {
+    background: #ff4500;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e63900;
 }
