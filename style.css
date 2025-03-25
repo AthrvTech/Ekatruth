@@ -2,50 +2,53 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #111;
+    color: white;
     text-align: center;
 }
 
 header {
-    background: #222;
-    color: white;
+    background-color: #222;
+    padding: 15px;
+    font-size: 24px;
+}
+
+nav {
+    background-color: #333;
     padding: 10px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
+nav a {
     color: white;
     text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
 }
 
-section {
+nav a:hover {
+    background-color: #555;
+}
+
+.main-content {
     padding: 20px;
 }
 
-.contact form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: auto;
-}
-
-.contact input, .contact textarea {
-    padding: 10px;
-    margin: 10px 0;
-    width: 100%;
-}
-
-button {
-    background: #222;
+.web-links a {
+    display: block;
+    background-color: #444;
     color: white;
     padding: 10px;
-    border: none;
+    margin: 10px auto;
+    width: 200px;
+    text-decoration: none;
+}
+
+.web-links a:hover {
+    background-color: #666;
+}
+
+footer {
+    background-color: #222;
+    padding: 10px;
+    margin-top: 20px;
 }
