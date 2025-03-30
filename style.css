@@ -1,82 +1,55 @@
-/* Global Styles */
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
 }
 
-body {
-    background-color: #121212;
-    color: #fff;
+header {
+    background-color: #333;
+    padding: 10px;
+    color: white;
 }
 
-/* Navbar */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 5%;
-    background: #1a1a1a;
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.navbar a {
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 10px 15px;
+    font-size: 18px;
 }
 
-.navbar a:hover {
-    background: #ff4500;
-    border-radius: 5px;
-}
-
-/* Hero Section */
 .hero {
-    text-align: center;
-    padding: 100px 20px;
-    background: linear-gradient(45deg, #ff4500, #1a1a1a);
+    padding: 50px;
 }
 
-.hero h1 {
-    font-size: 40px;
-}
-
-.hero p {
-    margin-top: 10px;
-    font-size: 18px;
-}
-
-.cta-btn {
-    margin-top: 20px;
+button {
     padding: 10px 20px;
-    background: #ff4500;
-    color: white;
-    border: none;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
 }
 
-.cta-btn:hover {
-    background: #e63e00;
-}
-
-/* Blog Section */
-.blog-section {
-    padding: 50px 5%;
-}
-
-.blog-post {
-    background: #1a1a1a;
+.blogs {
+    background: white;
     padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+    margin: 20px auto;
+    width: 80%;
 }
 
-/* Footer */
-.footer {
-    text-align: center;
-    padding: 20px;
-    background: #000;
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
