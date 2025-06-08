@@ -1,50 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ekatruth - Unveiling the Truth</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quantum Agency - Home</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Ekatruth - Unveiling the Truth</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Investigations</a></li>
-                <li><a href="#">Report a Case</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Quantum Agency</div>
+      <ul class="menu">
+        <li><a href="#press">Press</a></li>
+        <li><a href="#appearance">Appearance</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <section class="hero">
-            <h2>Investigate. Expose. Secure.</h2>
-            <button onclick="reportCase()">Report a Case</button>
-        </section>
+  <section class="hero-section">
+    <div class="network-container">
+      <h1 class="hero-title">Quantum Brainwave</h1>
+      <button class="cta-btn">Explore Now</button>
 
-        <section class="blogs">
-            <h2>Latest Blogs</h2>
-            <article>
-                <h3>Blog Title 1</h3>
-                <p>Short description of the blog...</p>
-            </article>
-            <article>
-                <h3>Blog Title 2</h3>
-                <p>Short description of the blog...</p>
-            </article>
-        </section>
-    </main>
+      <svg class="network-svg" viewBox="0 0 600 300" aria-hidden="true" >
+        <!-- SVG lines and nodes added dynamically -->
+      </svg>
+    </div>
+  </section>
 
-    <footer>
-        <p>© 2025 Ekatruth. All Rights Reserved.</p>
-    </footer>
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-boxes">
+      <div class="service-box">
+        <h3>App Development</h3>
+        <p>Innovative and user-friendly mobile apps.</p>
+      </div>
+      <div class="service-box">
+        <h3>Web Development</h3>
+        <p>Modern, responsive websites and platforms.</p>
+      </div>
+      <div class="service-box">
+        <h3>AI Solutions</h3>
+        <p>Cutting-edge AI integration and automation.</p>
+      </div>
+      <div class="service-box">
+        <h3>Game Development</h3>
+        <p>Engaging and immersive gaming experiences.</p>
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- Placeholder sections for other features -->
+
+  <section id="press" class="info-section">
+    <h2>Press</h2>
+    <p>Featured in top tech magazines and news.</p>
+  </section>
+
+  <section id="appearance" class="info-section">
+    <h2>Appearance</h2>
+    <p>Keynote speeches and media appearances.</p>
+  </section>
+
+  <section id="clients" class="info-section">
+    <h2>Clients</h2>
+    <p>Trusted by industry leaders worldwide.</p>
+  </section>
+
+  <section id="projects" class="info-section">
+    <h2>Projects</h2>
+    <p>Successful projects delivered globally.</p>
+  </section>
+
+  <section id="reviews" class="info-section">
+    <h2>Reviews & Feedback</h2>
+    <p>Hear what our clients say about us.</p>
+  </section>
+
+  <section id="contact" class="info-section">
+    <h2>Contact Us</h2>
+    <form class="contact-form" action="#" method="post">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
