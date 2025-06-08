@@ -2,95 +2,79 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Quantum Agency - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexon Quantum | Home</title>
   <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="logo">Quantum Agency</div>
-      <ul class="menu">
-        <li><a href="#press">Press</a></li>
-        <li><a href="#appearance">Appearance</a></li>
-        <li><a href="#clients">Clients</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#reviews">Reviews</a></li>
-        <li><a href="#contact">Contact</a></li>
+
+  <!-- 🔼 Navbar -->
+  <header class="navbar">
+    <div class="logo">NQ</div>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    <nav class="nav-menu" id="navMenu">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Why Us</a></li>
+        <li><a href="https://wa.me/918779989576" target="_blank">Connect</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero-section">
-    <div class="network-container">
-      <h1 class="hero-title">Quantum Brainwave</h1>
-      <button class="cta-btn">Explore Now</button>
-
-      <svg class="network-svg" viewBox="0 0 600 300" aria-hidden="true" >
-        <!-- SVG lines and nodes added dynamically -->
-      </svg>
+  <!-- 🚀 Hero Section -->
+  <section class="hero">
+    <div class="hero-left">
+      <h1>Nexon Quantum</h1>
+      <p>Quantum. Brain. Creativity. All in one agency.</p>
+      <button class="explore-btn">Explore Now</button>
     </div>
-  </section>
-
-  <section class="services" id="services">
-    <h2>Our Services</h2>
-    <div class="service-boxes">
-      <div class="service-box">
-        <h3>App Development</h3>
-        <p>Innovative and user-friendly mobile apps.</p>
-      </div>
-      <div class="service-box">
-        <h3>Web Development</h3>
-        <p>Modern, responsive websites and platforms.</p>
-      </div>
-      <div class="service-box">
-        <h3>AI Solutions</h3>
-        <p>Cutting-edge AI integration and automation.</p>
-      </div>
-      <div class="service-box">
-        <h3>Game Development</h3>
-        <p>Engaging and immersive gaming experiences.</p>
+    <div class="hero-right">
+      <div class="galaxy-circle">
+        <img src="neural-link.png" alt="Neuro Link" class="neuro-link" />
       </div>
     </div>
   </section>
 
-  <!-- Placeholder sections for other features -->
-
-  <section id="press" class="info-section">
-    <h2>Press</h2>
-    <p>Featured in top tech magazines and news.</p>
+  <!-- 📦 Services Section -->
+  <section class="services">
+    <h2>Our Expertise</h2>
+    <div class="services-grid">
+      <div class="service-box">🌐 Web Development</div>
+      <div class="service-box">📱 App Development</div>
+      <div class="service-box">🧠 AI Solutions</div>
+      <div class="service-box">🎮 Game Development</div>
+    </div>
   </section>
 
-  <section id="appearance" class="info-section">
-    <h2>Appearance</h2>
-    <p>Keynote speeches and media appearances.</p>
+  <!-- 🧾 Feedback Section -->
+  <section class="feedbacks">
+    <h2>What Our Clients Say</h2>
+    <div class="feedback-slider">
+      <div class="feedback-card">⭐️⭐️⭐️⭐️⭐️ — “Amazing service!”</div>
+      <div class="feedback-card">⭐️⭐️⭐️⭐️ — “Very professional team.”</div>
+      <div class="feedback-card">⭐️⭐️⭐️⭐️⭐️ — “Highly recommended.”</div>
+    </div>
   </section>
 
-  <section id="clients" class="info-section">
-    <h2>Clients</h2>
-    <p>Trusted by industry leaders worldwide.</p>
-  </section>
+  <!-- 📞 WhatsApp Floating Button -->
+  <a href="https://wa.me/918779989576" target="_blank" class="whatsapp-float">💬</a>
 
-  <section id="projects" class="info-section">
-    <h2>Projects</h2>
-    <p>Successful projects delivered globally.</p>
-  </section>
+  <!-- 📍 Footer -->
+  <footer class="footer">
+    <div class="footer-note">
+      <h3>CEO’s Note</h3>
+      <p>Nexon Quantum is on a mission to revolutionize technology. Let’s build the future together.</p>
+    </div>
+    <div class="footer-contact">
+      <p>📞 +91 8779989576</p>
+      <p>📧 contact@nexonquantum.com</p>
+    </div>
+    <p class="copyright">© 2025 Nexon Quantum. All rights reserved.</p>
+  </footer>
 
-  <section id="reviews" class="info-section">
-    <h2>Reviews & Feedback</h2>
-    <p>Hear what our clients say about us.</p>
-  </section>
-
-  <section id="contact" class="info-section">
-    <h2>Contact Us</h2>
-    <form class="contact-form" action="#" method="post">
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" rows="4" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
-  <script src="script.js"></script>
 </body>
 </html>
